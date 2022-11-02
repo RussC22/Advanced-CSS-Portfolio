@@ -26,7 +26,8 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Link to page: https://russc22.github.io/Advanced-CSS-Portfolio/
 
-![Page Image!](https://russc22.github.io/Advanced-CSS-Portfolio/)
+![Image of page](https://user-images.githubusercontent.com/114961971/198839832-3af1c126-5fdb-458a-bf35-b0d41952f5e5.png)
+
 
 ## License
 

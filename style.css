@@ -110,6 +110,7 @@ body {
     position: absolute;
     float: left;
     padding-left: 650px;
+
     
 }
 /* About me style */
@@ -172,12 +173,75 @@ b {
     font-size: 2.05rem;
     line-height: .5rem;
 }    
-
+    }
+.pro {
+    background-color: var(--second);
+    color:var(--third) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 875px 2px 1px 1px ;
+    position: absolute;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    width: 616px;
+    font-size: 50px;
+    font-style: var(--font-styles);
+    -webkit-text-stroke: 2px (var(--fourth));
+    font-weight: bolder;
+    display: block;
+    
 }
+
+.res {
+    background-color: var(--second);
+    color:var(--third) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 850px 2px 1px 1px ;
+    position: absolute;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    width: 616px;
+    font-size: 50px;
+    font-style: var(--font-styles);
+    -webkit-text-stroke: 2px (var(--fourth));
+    font-weight: bolder;
+    display: block;
+    top: 935px;
+    
+}
+.hob {
+    background-color: var(--second);
+    color:var(--third) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 850px 2px 1px 1px ;
+    position: absolute;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    width: 616px;
+    font-size: 50px;
+    font-style: var(--font-styles);
+    -webkit-text-stroke: 2px (var(--fourth));
+    font-weight: bolder;
+    display: block;
+    top: 1220px;
+    
+}
+
+    @media (max-width: 800px) {
+    #bottomLink   {
+    font-size: 22px;
+    line-height: .1rem;
+}
+    }
     @media (max-width: 800px) {
         b   {
         font-size: 22px;
-        line-height: .1rem;
+        line-height: .05rem;
     }
 }
     @media (min-width: 600px) { 

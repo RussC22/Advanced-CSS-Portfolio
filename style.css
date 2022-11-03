@@ -127,18 +127,19 @@ p {
     position: relative;
     margin: -4px 1px 0px 0px;
 }
-b {
+.b {
     font-size: 45px;
     font-style: oblique;
     font-family: var(--font-styles);
     color: var(--second);
-    margin-inline: 10px 0px 0px 0px;
+    /* margin-inline: 10px 0px 0px 0px; */
     text-align:center;
     font-weight: bolder;
     -webkit-text-stroke: 1.5px var(--fourth);
-    padding: .5px 1px 150px 0px;
+    /* padding: .5px 1px 150px 0px; */
     position: relative;
     text-decoration: none;
+    line-height: 75px;
 }
 /* welcome message style */
 .welcome {
@@ -232,16 +233,17 @@ b {
     
 }
 
-    @media (max-width: 800px) {
+    @media (max-width: 768px) {
     #bottomLink   {
-    font-size: 22px;
+    font-size: 18px;
     line-height: .1rem;
 }
     }
-    @media (max-width: 800px) {
-        b   {
-        font-size: 22px;
-        line-height: .05rem;
+    @media (max-width: 768px) {
+        .b   {
+        font-size: 18px;
+        line-height: normal;
+
     }
 }
     @media (min-width: 600px) { 
@@ -265,7 +267,7 @@ b {
 }    
 
 }
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .welcome   {
         font-size: 1.2rem;
         line-height: 1.8rem;
